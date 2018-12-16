@@ -1,0 +1,42 @@
+{
+  "name": "nodeBuddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp scripts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.33",
+    "@types/mongodb": "^3.1.12",
+    "@types/mongoose": "^5.2.19",
+    "@types/node": "^6.0.46",
+    "diff_match_patch": "^0.1.1",
+    "envalid": "^4.1.4",
+    "googlediff": "^0.1.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.1",
+    "typegoose": "^5.4.1",
+    "typescript": "^2.0.6"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.2.18",
+    "body-parser": "^1.15.2",
+    "debug": "^2.2.0",
+    "diff_match_patch": "^0.1.1",
+    "envalid": "^4.1.4",
+    "express": "^4.14.0",
+    "mongodb-stitch-browser-sdk": "^4.0.8",
+    "morgan": "^1.7.0",
+    "text-diff": "^1.0.1",
+    "typegoose": "^5.4.1"
+  }
+}
